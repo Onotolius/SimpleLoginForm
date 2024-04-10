@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: rgb(235, 228, 255);
+  color: rgb(96, 56, 197);
+  font-weight: bold;
+}
+.container {
+  margin: 20vh auto;
+  width: 500px;
+}
+.auth__wrapper {
+  background-color: #fff;
+  padding: 45px 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  color: rgb(96, 56, 197);
+}
+.auth__title {
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.auth__subtitle {
+  text-align: center;
+  width: 370px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.auth__forms {
+  display: flex;
+  width: 430px;
+  position: relative;
+  flex-direction: column;
+}
+label {
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(67, 67, 67);
+}
+input {
+  padding: 20px 45px;
+  border-color: rgb(221, 221, 221);
+  border-radius: 10px;
+  outline: none;
+  font-size: 1em;
+  border-color: rgb(221, 221, 221);
+}
+.input-email {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.email-image {
+  position: absolute;
+  top: 54px;
+  left: 15px;
+}
+.pass-image {
+  position: absolute;
+  top: 179px;
+  left: 15px;
+}
+.input-pass {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.auth__help {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: rgb(96, 56, 197);
+}
+.auth__help-link {
+  margin-left: auto;
+}
+.auth__help-link:hover {
+  cursor: pointer;
+  color: rgba(96, 56, 197, 0.7);
+}
+.sign-btn {
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1rem;
+  background-color: rgb(96, 56, 197);
+}
+
+.sign-btn:hover {
+  cursor: pointer;
+  background-color: rgba(96, 57, 197, 0.8);
+}
+.registration {
+  color: rgb(67, 67, 67);
+}
+.registration > a {
+  color: rgb(96, 56, 197);
+}
+.registration > a:hover {
+  color: rgb(96, 56, 197, 0.7);
+  cursor: pointer;
+}
