@@ -17,23 +17,23 @@
                     Sign in for academic process insight. Stay informed, track succes,
                     and build brighter future together
                 </p>
-                <form class="auth__forms" method="post" action="/includes/formHndler.php">
+                <form class="auth__forms" method="post" action="./includes/formHndler.php">
                     <label for="email-box" class="auth__email">Email or Phone Number</label><img src="/imgs/user.svg"
                         class="email-image" width="20" height="20" />
-                    <input id="email-box" type="email" class="input-email" placeholder="Enter your email" />
+                    <input name="email" type="email" class="input-email" placeholder="Enter your email" />
                     <label for="password-box" class="auth__password">Passowrd</label><img src="/imgs/lock.svg"
                         class="pass-image" width="20" height="20" />
-                    <input id="password-box" type="password" class="input-pass" placeholder="Enter your password"
+                    <input name="password" type="password" class="input-pass" placeholder="Enter your password"
                         required />
+                    <div class="auth__help">
+                        <label id="checkbox">Remeber me</label><input type="checkbox" />
+                        <a class="auth__help-link">Forgot Password ?</a>
+                    </div>
+                    <button class="sign-btn" type="submit">Sign In</button>
+                    <p class="registration">
+                        Don't have an account ? <a>Get access</a>
+                    </p>
                 </form>
-                <div class="auth__help">
-                    <label id="checkbox">Remeber me</label><input type="checkbox" />
-                    <a class="auth__help-link">Forgot Password ?</a>
-                </div>
-                <button class="sign-btn" type="submit">Sign In</button>
-                <p class="registration">
-                    Don't have an account ? <a>Get access</a>
-                </p>
             </div>
         </div>
     </div>
